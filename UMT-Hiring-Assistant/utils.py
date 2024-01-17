@@ -13,6 +13,9 @@ from langchain.chains.llm import LLMChain
 from langchain.prompts import PromptTemplate
 from langchain.chains import StuffDocumentsChain
 
+OPENAI_API_KEY="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"
+HUGGINGFACEHUB_API_TOKEN="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"
+
 #Extract Information from PDF file                                                      
 def get_pdf_text(pdf_doc):
     text = ""
